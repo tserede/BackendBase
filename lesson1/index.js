@@ -21,13 +21,13 @@ import {join} from "path"
 
 
 
-// const rl = readline.createInterface({
-//   input: process.stdin,
-//   output: process.stdout,
-// });
-// rl.question("What is your favorite food? ", (answer) => {
-//   console.log(`Oh, so your favorite food is ${answer}`);
-// });
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+rl.question("What is your favorite food? ", (answer) => {
+  console.log(`Oh, so your favorite food is ${answer}`);
+});
 
 
 // const file1=readFileSync('calc.js', {encoding:'utf8'})
